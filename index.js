@@ -84,7 +84,7 @@ const app = express();
 
 /**
  * Free endpoint
- */
+ */ 
 app.get("/", (req, res) => {
   res.send("x402 server is running");
 });
