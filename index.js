@@ -91,7 +91,7 @@ app.get("/", (req, res) => {
 
 /**
  * Paid endpoint (x402-protected)
- */
+ */ 
 app.get("/premium", (req, res) => {
   res.status(402).json({
     error: "Payment Required",
